@@ -1,0 +1,6 @@
+package CommandPattern;
+
+public interface Command {
+    public boolean execute();
+    public boolean undo();
+}
